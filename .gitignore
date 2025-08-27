@@ -1,0 +1,12 @@
+bin/
+obj/
+*.txt
+*.exe
+*.dll
+*.log
+git lfs install
+git lfs track "*.txt"
+git add .gitattributes
+git add bin/Debug/net8.0/numbers_ending_91.txt
+git commit -m "Track large txt file with Git LFS"
+git push -u origin main
